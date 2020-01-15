@@ -8,13 +8,67 @@ header
 
 {
     text-align: right;
+    font-family: sans-serif;
+    font-size: 150%;
 }
 
-.naranja_regrita
+h2::first-letter
 
 {
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration-style: double;
-    color: orange;
-    background-color: violet;
+    font-size: 120%;
+}
+
+h2
+
+{
+    font-size: 300%;
+    font-family: monospace;
+    text-transform: uppercase;
+
+}
+
+
+span.comic {
+    color: red;
+    font-family: "Comic Sans", cursive;
+}
+
+span.verde_blanco
+
+{
+    color: green;
+    background-color: white;
+    font-style: italic;
+}
+
+p
+
+{
+    text-indent: 3rem;
+    font-family: sans-serif;
+    line-height: 200%;
+}
+
+
+.naranja_negrita
+
+{
+    color:#D0691E;
+    font-weight: bolder;
+}
+
+.naranja_fino
+
+{
+    color:orange;
+}
+
+pre
+{
+    color: white;
+    font-family: monospace;
+    text-transform: capitalize;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
