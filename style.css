@@ -4,3 +4,17 @@ body
     background-color:rgb(198, 217, 238) ;
 }
 
+header
+
+{
+    text-align: right;
+}
+
+.naranja_regrita
+
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-style: double;
+    color: orange;
+    background-color: violet;
+}
